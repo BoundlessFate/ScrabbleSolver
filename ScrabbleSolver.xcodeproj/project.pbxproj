@@ -6,10 +6,19 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		836B8E3D2C269BB100FC6B8D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		836B8E3E2C269C3800FC6B8D /* solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solver.swift; sourceTree = "<group>"; };
+		836B8E3F2C269C4500FC6B8D /* position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = position.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		836B8E362C269AF100FC6B8D = {
 			isa = PBXGroup;
 			children = (
+				836B8E3F2C269C4500FC6B8D /* position.swift */,
+				836B8E3E2C269C3800FC6B8D /* solver.swift */,
+				836B8E3D2C269BB100FC6B8D /* main.swift */,
 			);
 			sourceTree = "<group>";
 		};
